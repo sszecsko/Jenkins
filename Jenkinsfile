@@ -5,17 +5,17 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building..'
+                echo 'Building izébizé..'
             }
         }
         stage('Test') {
             steps {
-                echo 'Testing..'
+                echo 'Testing izébizé..'
             }
         }
         stage('Deploy') {
             steps {
-                echo 'Deploying....'
+                echo 'Deploying izébizé....'
             }
         }
     }
