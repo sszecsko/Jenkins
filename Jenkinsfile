@@ -4,17 +4,17 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building izébizé..'
+                echo 'Building cucc..'
             }
         }
         stage('Test') {
             steps {
-                echo 'Testing izébizé..'
+                echo 'Testing cucc..'
             }
         }
         stage('Deploy') {
             steps {
-                echo 'Deploying izébizé....'
+                echo 'Deploying cucc....'
             }
         }
     }
